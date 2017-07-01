@@ -9,7 +9,7 @@
     router.get('/', (req, res) => {
         res.header('Cache-Control', 'no-store');
         res.header('Pragma', 'no-cache');
-        res.send({ "status": "UP", "name": "Billing Explanation Tool", "version": packageJson.version });
+        res.send({ "status": "UP", "name": "Acceptance Test Health Endpoint", "version": packageJson.version });
     });
 
 

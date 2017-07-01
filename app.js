@@ -28,14 +28,22 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
 app.use('/health', healthRoute);
+
+app.use('/users', users);
 app.use('/status', statusRoute);
 
 
 app.get('/ping', function (req, res) {
   res.status(httpStatus.OK).send('pong');
 });
+
+app.use(function (req, res, next) {
+  if( req.url === '/health' && req.method === 'POST') {
+    var requestBody = (typeof req.body === 'object') ? JSON.stringify(req.body) : req.body;
+    next();
+  }
+})
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
