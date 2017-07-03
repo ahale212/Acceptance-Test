@@ -1,8 +1,6 @@
 +++
 ## CI/CD Acceptance Tests
-<img src="./assets/championJenkins.jpeg" width="300" height="200"/>     
-<img src="./assets/passingJenkins.jpg" width="300" height="100"/>     
-<img src="./assets/yay.jpg" width="300" height="200"/>
+<img src="./assets/championJenkins.jpeg" width="300" height="200"/> <img src="./assets/passingJenkins.jpg" width="300" height="100"/> <img src="./assets/yay.jpg" width="300" height="200"/>
 
 +++
 ### Acceptance Tests
