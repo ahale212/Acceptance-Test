@@ -53,7 +53,11 @@
 
 ### Back End
   * Health Check Endpoint Tests
+  +++
+
     <image src=""./assets/health_check.jpg">
+
+  +++  
     * An alternative to Smoke testing
     * Works well on web applications
       * Create a health route which calls each service and posts the status codes to the route.
