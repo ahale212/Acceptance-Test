@@ -1,10 +1,11 @@
 +++
 ## CI/CD Acceptance Tests
-<img src="./assets/health_check.jpg"/>
+<img src="./assets/championJenkins.jpeg"/>     <img src="./assets/passingJenkins.jpg"/>     <imgsrc="./assets/yay.jpg"/>
 
 +++
 ### Acceptance Tests
   * Definition
+  <img src="./assets/oops.jpg"/>
     * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
     * Front end: UI Tests
     * Back end: Smoke/End-to-End Tests
@@ -12,6 +13,7 @@
 +++
 ### Acceptance Tests
   * CI Pipeline
+  <img src="./assets/devilJenkins.png"/>
     * Acceptance tests come before deploying to UAT/TEST environment
       * Assuming DEV --> UAT --> PRE-PROD environments
     * Acceptance tests can be run in DEV environment
@@ -21,6 +23,7 @@
 +++
 ### Back End
   * Smoke Tests
+  <img src="./assets/smoketest.jpg"/>
     * Run after deploying new apps/infrastructure
     * Ensures all back end services wire together successfully
       * Oracle, Cassandra, RabbitMQ, Kafka, etc.
@@ -28,6 +31,7 @@
 +++
 ### Back End
   * End-to-End Tests
+  <img src="./assets/endToEnd.jpg"/>
     * Run after new code is deployed
     * Ensures data flows with the right values from beginning to end
 
@@ -53,6 +57,8 @@
 
 ### Back End
   * Health Check Endpoint Tests
+    <img src="./assets/health_check.jpg"/>
+
     * An alternative to Smoke testing
     * Works well on web applications
 
@@ -70,7 +76,7 @@
 +++
 ### Front End
   * UI Tests
-    * TODO
+  <img src="./assets/dont-always-test.jpg"/>
 
 +++
 ### CI/CD Acceptance Tests
