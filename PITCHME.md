@@ -1,6 +1,6 @@
 +++
-##Compozed Global Lunch and Learn
-### CI/CD Acceptance Tests
+## CI/CD Acceptance Tests
+<img src="./assets/health_check.jpg"/>
 
 +++
 ### Acceptance Tests
@@ -53,10 +53,9 @@
 
 ### Back End
   * Health Check Endpoint Tests
-    <image src="./assets/health_check.jpg"/>
     * An alternative to Smoke testing
     * Works well on web applications
-    
+
       * Create a health route which calls each service and posts the status codes to the route.
       * Goes beyond acceptance test functionailty and lends itself well to application support
 +++
