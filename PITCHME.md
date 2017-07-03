@@ -15,7 +15,7 @@
 
 +++
 ### Acceptance Tests
-<img src="./assets/devilJenkins.png" width="250" height="250"/>
+<img src="./assets/devilJenkins.png" width="200" height="200"/>
 
   * CI Pipeline
     * Acceptance tests come before deploying to UAT/TEST environment
@@ -35,7 +35,7 @@
 
 +++
 ### Back End
-<img src="./assets/endToEnd.jpg" width="250" height="250"/>
+<img src="./assets/endToEnd.jpg" width="450" height="450"/>
 
   * End-to-End Tests
     * Run after new code is deployed
@@ -62,7 +62,7 @@
 +++
 
 ### Back End
-<img src="./assets/health_check.jpg" width="250" height="250"/>
+<img src="./assets/health_check.jpg" width="350" height="200"/>
 
   * Health Check Endpoint Tests
 
