@@ -1,12 +1,12 @@
 +++
 ## CI/CD Acceptance Tests
 <img src="./assets/championJenkins.jpeg" width="300" height="200"/>
-<img src="./assets/passingJenkins.jpg" width="500" height="100"/>
+<img src="./assets/passingJenkins.jpg" width="400" height="100"/>
 <img src="./assets/yay.jpg" width="300" height="200"/>
 
 +++
 ### Acceptance Tests
-<img src="./assets/oops.jpg" width="50% height="50%""/>
+<img src="./assets/oops.jpg" width="500" height="500"/>
 
   * Definition
     * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
