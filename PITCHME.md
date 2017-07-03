@@ -5,7 +5,7 @@
 <img src="./assets/yay.jpg" width="300" height="200"/>
 
 +++
-### Acceptance Tests
+### Acceptance Testing
 <img src="./assets/oops.jpg" width="250" height="250"/>
 
   * Definition
@@ -14,7 +14,7 @@
     * Back end: Smoke/End-to-End Tests
 
 +++
-### Acceptance Tests
+### Acceptance Testing with CI/CD
 <img src="./assets/devilJenkins.png" width="200" height="200"/>
 
   * CI Pipeline
@@ -25,66 +25,53 @@
     * Automated tests that ensure newly deployed code works in environment
 
 +++
-### Back End
+### SMOKE TESTING
 <img src="./assets/smoketest.jpg" width="250" height="250"/>
-
-  * Smoke Tests
-    * Run after deploying new apps/infrastructure
-    * Ensures all back end services wire together successfully
-      * Oracle, Cassandra, RabbitMQ, Kafka, etc.
+  * Run after deploying new apps/infrastructure
+  * Ensures all back end services wire together successfully
 
 +++
-### Back End
+### END-TO-END-TESTING
 <img src="./assets/endToEnd.jpg" width="450" height="450"/>
-
-  * End-to-End Tests
-    * Run after new code is deployed
-    * Ensures data flows with the right values from beginning to end
+  * Run after new code is deployed
+  * Ensures data flows with the right values from beginning to end
 
 +++
-### Back End
-  * Smoke Test Example
-    * Trigger: Deployed application with new database connection URL
-    * Test: Test application runs and attempts to query database with JDBC template call
-    * Results:
-      * Success: Retrieves data from JDBC query - Environment is UP!
-      * Failure: Connection refused - Environment is DOWN!
+### SMOKE TEST EXAMPLE
+  * Trigger: Deployed application with new database connection URL
+  * Test: Test application runs and attempts to query database with JDBC template call
+  * Results:
+    * Success: Retrieves data from JDBC query - Environment is UP!
+    * Failure: Connection refused - Environment is DOWN!
 
 +++
-### Back End
-  * End-to-End Example
-    * Trigger: Deployed application with code changes for calculations
-    * Test: Test application initiates data flow with known data and expects correct values to appear at the end of the flow
-    * Results:
-      * Success: Data retrieved from end of flow has correct value
-      * Failure: Data retrieved from end of flow has incorrect value or data does not appear at the end of the flow
+### END-TO-END-TESTING EXAMPLE
+  * Trigger: Deployed application with code changes for calculations
+  * Test: Test application initiates data flow with known data and expects correct values to appear at the end of the flow
+  * Results:
+    * Success: Data retrieved from end of flow has correct value
+    * Failure: Data retrieved from end of flow has incorrect value or data does not appear at the end of the flow
 
 +++
 
-### Back End
+### Health Check
 <img src="./assets/health_check.jpg" width="350" height="200"/>
+  * An alternative to Smoke testing
+  * Works well on web applications
 
-  * Health Check Endpoint Tests
-
-    * An alternative to Smoke testing
-    * Works well on web applications
-
-      * Create a health route which calls each service and posts the status codes to the route.
-      * Goes beyond acceptance test functionailty and lends itself well to application support
+    * Create a health route which calls each service and posts the status codes to the route.
+    * Goes beyond acceptance test functionailty and lends itself well to application support
 +++
-### Back End
-  * Health Check Example
-    * Trigger: Deployed application
-    * Test: Call the Endpoint and check the response is a 200
-    * Results:
-      * Success: All service calls return 200 - Results in App is HEALTHY!
-      * Failure: If one service returns a 500 - App is SICK!
+### Health Check Example
+  * Trigger: Deployed application
+  * Test: Call the Endpoint and check the response is a 200
+  * Results:
+    * Success: All service calls return 200 - Results in App is HEALTHY!
+    * Failure: If one service returns a 500 - App is SICK!
 
 +++
-### Front End
+### UI TESTING
 <img src="./assets/dont-always-test.jpg" width="250" height="250" />
-
-  * UI Tests
 
 +++
 ### CI/CD Acceptance Tests
