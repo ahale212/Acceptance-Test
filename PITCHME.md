@@ -1,12 +1,12 @@
 +++
 ## CI/CD Acceptance Tests
 <img src="./assets/championJenkins.jpeg" width="300" height="200"/>
-<img src="./assets/passingJenkins.jpg" width="400" height="100"/>
+<img src="./assets/passingJenkins.jpg" width="300" height="100"/>
 <img src="./assets/yay.jpg" width="300" height="200"/>
 
 +++
 ### Acceptance Tests
-<img src="./assets/oops.jpg" width="500" height="500"/>
+<img src="./assets/oops.jpg" width="250" height="250"/>
 
   * Definition
     * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
@@ -15,7 +15,7 @@
 
 +++
 ### Acceptance Tests
-<img src="./assets/devilJenkins.png"/>
+<img src="./assets/devilJenkins.png" width="250" height="250"/>
 
   * CI Pipeline
     * Acceptance tests come before deploying to UAT/TEST environment
@@ -26,7 +26,7 @@
 
 +++
 ### Back End
-<img src="./assets/smoketest.jpg"/>
+<img src="./assets/smoketest.jpg" width="250" height="250"/>
 
   * Smoke Tests
     * Run after deploying new apps/infrastructure
@@ -35,7 +35,7 @@
 
 +++
 ### Back End
-<img src="./assets/endToEnd.jpg"/>
+<img src="./assets/endToEnd.jpg" width="250" height="250"/>
 
   * End-to-End Tests
     * Run after new code is deployed
@@ -62,7 +62,7 @@
 +++
 
 ### Back End
-<img src="./assets/health_check.jpg"/>
+<img src="./assets/health_check.jpg" width="250" height="250"/>
 
   * Health Check Endpoint Tests
 
@@ -82,7 +82,7 @@
 
 +++
 ### Front End
-<img src="./assets/dont-always-test.jpg"/>
+<img src="./assets/dont-always-test.jpg" width="250" height="250" />
 
   * UI Tests
 
