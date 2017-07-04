@@ -8,14 +8,14 @@
       soapHeader : 'dummyHeader',
       webMethodName : 'dummyName',
       soapBody : 'dummyBody'
-    // },
+    },
 
-    // production : {
-    //   wsdl : 'http://google.com',
-    //   soapHeader : '',
-    //   webMethodName : 'dummyName',
-    //   soapBody : 'dummyResponse'
-    // }
+    production : {
+      wsdl : 'http://google.com',
+      soapHeader : '',
+      webMethodName : 'dummyName',
+      soapBody : 'dummyResponse'
+    }
   };
 
   module.exports  = {

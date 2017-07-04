@@ -8,7 +8,7 @@
       soapHeader : '',
       webMethodName : 'dummyName',
       soapBody : 'dummyResponse'
-    }
+    },
 
     production : {
       wsdl : 'http://google.com',
@@ -18,7 +18,7 @@
     }
   }
 
-  module.exports {
+  module.exports = {
     dummyService1: dummyService1
   };
 
