@@ -2,5 +2,5 @@
 Feature('My application ');
 
 Scenario('test something', (I) => {
-I.see('Hi');
+I.see('A very basic app');
 });
