@@ -5,13 +5,9 @@
 <img src="./assets/yay.jpg" width="300" height="200"/>
 +++
 
-### Acceptance Testing
+### Acceptance Testing with CI/CD
 <img src="./assets/oops.jpg" width="250" height="250"/>
   * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
-+++
-
-### Acceptance Testing with CI/CD
-<img src="./assets/devilJenkins.png" width="200" height="200"/>
 +++
 
 ### SMOKE TESTING
@@ -46,6 +42,9 @@
 
 ### UI TESTING
 <img src="./assets/dont-always-test.jpg" width="250" height="250" />
++++
+
+### HOW DOES IT ALL LOOK ?
 +++
 
 ### CI/CD Acceptance Tests
