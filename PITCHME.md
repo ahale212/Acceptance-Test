@@ -10,6 +10,18 @@
   * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
 +++
 
+### END-TO-END-TESTING
+<img src="./assets/endToEnd.jpeg" width="350" height="200"/>
++++
+
+### END-TO-END-TESTING EXAMPLE
+  * Trigger: Deployed application with code changes for calculations
+  * Test: Test application initiates data flow with known data and expects correct values to appear at the end of the flow
+  * Results:
+    * Success: Data retrieved from end of flow has correct value
+    * Failure: Data retrieved from end of flow has incorrect value or data does not appear at the end of the flow
++++
+
 ### SMOKE TESTING
 <img src="./assets/smoketest.jpg" width="250" height="250"/>
   * Run after deploying new apps/infrastructure
@@ -22,18 +34,6 @@
   * Results:
     * Success: Retrieves data from JDBC query - Environment is UP!
     * Failure: Connection refused - Environment is DOWN!
-+++
-
-### END-TO-END-TESTING
-<img src="./assets/endToEnd.jpeg" width="350" height="200"/>
-+++
-
-### END-TO-END-TESTING EXAMPLE
-  * Trigger: Deployed application with code changes for calculations
-  * Test: Test application initiates data flow with known data and expects correct values to appear at the end of the flow
-  * Results:
-    * Success: Data retrieved from end of flow has correct value
-    * Failure: Data retrieved from end of flow has incorrect value or data does not appear at the end of the flow
 +++
 
 ### Health Check
