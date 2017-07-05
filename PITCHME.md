@@ -7,22 +7,11 @@
 
 ### Acceptance Testing
 <img src="./assets/oops.jpg" width="250" height="250"/>
-
-  * Definition
-    * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
-    * Front end: UI Tests
-    * Back end: Smoke/End-to-End Tests
+  * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
 +++
 
 ### Acceptance Testing with CI/CD
 <img src="./assets/devilJenkins.png" width="200" height="200"/>
-
-  * CI Pipeline
-    * Acceptance tests come before deploying to UAT/TEST environment
-      * Assuming DEV --> UAT --> PRE-PROD environments
-    * Acceptance tests can be run in DEV environment
-    * Ensures environment/application is up and running for manual user acceptance testing to be performed
-    * Automated tests that ensure newly deployed code works in environment
 +++
 
 ### SMOKE TESTING
@@ -41,8 +30,6 @@
 
 ### END-TO-END-TESTING
 <img src="./assets/endToEnd.jpg" width="450" height="450"/>
-  * Run after new code is deployed
-  * Ensures data flows with the right values from beginning to end
 +++
 
 ### END-TO-END-TESTING EXAMPLE
@@ -55,18 +42,6 @@
 
 ### Health Check
 <img src="./assets/health_check.jpg" width="350" height="200"/>
-  * An alternative to Smoke testing
-  * Works well on web applications
-    * Create a health route which calls each service and posts the status codes to the route.
-    * Goes beyond acceptance test functionailty and lends itself well to application support
-+++
-
-### Health Check Example
-  * Trigger: Deployed application
-  * Test: Call the Endpoint and check the response is a 200
-  * Results:
-    * Success: All service calls return 200 - Results in App is HEALTHY!
-    * Failure: If one service returns a 500 - App is SICK!
 +++
 
 ### UI TESTING
@@ -74,4 +49,4 @@
 +++
 
 ### CI/CD Acceptance Tests
-  * Questions?
+  * Questions / Feedback ?
