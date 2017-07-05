@@ -25,7 +25,7 @@
 +++
 
 ### END-TO-END-TESTING
-<img src="./assets/endToEnd.jpg"/>
+<img src="./assets/endToEnd.jpeg" width="350" height="200"/>
 +++
 
 ### END-TO-END-TESTING EXAMPLE
