@@ -6,7 +6,7 @@
 +++
 
 ### Acceptance Testing with CI/CD
-<img src="./assets/oops.jpg" width="250" height="250"/>
+<img src="./assets/oops.jpg" width="350" height="350"/>
 +++
 
 ### END-TO-END-TESTING
