@@ -15,9 +15,7 @@
 +++
 
 ### SMOKE TESTING
-<img src="./assets/smoketest.jpg" width="250" height="250"/>
-  * Run after deploying new apps/infrastructure
-  * Ensures all back end services wire together successfully
+<img src="./assets/smoketest.jpg" width="350" height="350"/>
 +++
 
 ### Health Check
