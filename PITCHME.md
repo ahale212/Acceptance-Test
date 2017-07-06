@@ -11,15 +11,7 @@
 +++
 
 ### END-TO-END-TESTING
-<img src="./assets/endToEnd.jpeg" width="350" height="200"/>
-+++
-
-### END-TO-END-TESTING EXAMPLE
-  * Trigger: Deployed application with code changes for calculations
-  * Test: Test application initiates data flow with known data and expects correct values to appear at the end of the flow
-  * Results:
-    * Success: Data retrieved from end of flow has correct value
-    * Failure: Data retrieved from end of flow has incorrect value or data does not appear at the end of the flow
+<img src="./assets/endToEnd.jpeg" width="450" height="300"/>
 +++
 
 ### SMOKE TESTING
@@ -28,20 +20,12 @@
   * Ensures all back end services wire together successfully
 +++
 
-### SMOKE TEST EXAMPLE
-  * Trigger: Deployed application with new database connection URL
-  * Test: Test application runs and attempts to query database with JDBC template call
-  * Results:
-    * Success: Retrieves data from JDBC query - Environment is UP!
-    * Failure: Connection refused - Environment is DOWN!
-+++
-
 ### Health Check
-<img src="./assets/health_check.jpg" width="350" height="200"/>
+<img src="./assets/health_check.jpg" width="450" height="300"/>
 +++
 
 ### UI TESTING
-<img src="./assets/dont-always-test.jpg" width="250" height="250" />
+<img src="./assets/dont-always-test.jpg" width="350" height="350" />
 +++
 
 ### HOW DOES IT ALL LOOK ?
