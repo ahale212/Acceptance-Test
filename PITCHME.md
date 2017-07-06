@@ -7,7 +7,6 @@
 
 ### Acceptance Testing with CI/CD
 <img src="./assets/oops.jpg" width="250" height="250"/>
-  * Automated tests ensuring the environment/application is successfully built to allow for manual User Acceptance testing
 +++
 
 ### END-TO-END-TESTING
